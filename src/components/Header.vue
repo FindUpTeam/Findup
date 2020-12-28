@@ -33,6 +33,7 @@
           <b-dropdown-item  @click="setLocale('et')">EST</b-dropdown-item>
         </b-nav-item-dropdown>
 
+        <!--removed dropdown due to compatibility issues -->
         <!-- <b-nav-item-dropdown right>
           <template #button-content>
             <em>User</em> 
