@@ -23,8 +23,8 @@
           
 
           
-          <!--<b-nav-item :to="`/${$i18n.locale}/login`">{{ $t('header.login') }}</b-nav-item>
-          <b-nav-item :to="`/${$i18n.locale}/signup`">{{ $t('header.signup') }}</b-nav-item>-->
+          <b-nav-item :to="`/${$i18n.locale}/login`">{{ $t('header.login') }}</b-nav-item>
+          <b-nav-item :to="`/${$i18n.locale}/signup`">{{ $t('header.signup') }}</b-nav-item>
   
         </b-navbar-nav>
           
@@ -33,14 +33,13 @@
           <b-dropdown-item  @click="setLocale('et')">EST</b-dropdown-item>
         </b-nav-item-dropdown>
 
-        <b-nav-item-dropdown right>
-          <!-- Using 'button-content' slot -->
+        <!-- <b-nav-item-dropdown right>
           <template #button-content>
-            <em>User</em> <!-- Retrieve data and display the name of the logged in user -->
+            <em>User</em> 
           </template>
-          <b-dropdown-item href=" ">Settings</b-dropdown-item> <!-- add the relevant codes for the respective pages -->
-          <b-dropdown-item href=" ">Sign Out</b-dropdown-item> <!-- same as above -->
-        </b-nav-item-dropdown>
+          <b-dropdown-item href=" ">Settings</b-dropdown-item> 
+          <b-dropdown-item href=" ">Sign Out</b-dropdown-item> 
+        </b-nav-item-dropdown> -->
 
         
       </b-navbar-nav>
@@ -78,6 +77,11 @@ export default {
 <style>
 #header{
   background-color:cornflowerblue;
+}
+
+.dropdown-item:hover {
+  background-color: green ;
+
 }
 
 </style>
