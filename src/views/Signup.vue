@@ -86,8 +86,8 @@ export default {
         { text: "Football", value: "Football" },
         { text: "Cricket", value: "Cricket" },
         { text: "Handball", value: "Handball" },
-        { text: "Vollyball", value: "Vollyball" },
-        { text: "Table tennis", value: "Table tennis" },
+        { text: "Volleyball", value: "Vollyball" },
+        { text: "Table Tennis", value: "Table tennis" },
         { text: "Skateboarding", value: "Skateboarding" },
       ],
     };
@@ -98,7 +98,7 @@ export default {
 
 <style>
 .SignupImage {
-  background-image: url("https://lh3.googleusercontent.com/proxy/AzyG6Ip2OnPaoShVxVTjdJB1PJAIwjDa1kA5J-gJQ0OCSp2AxAdh8fDniiQsBip92aerGNi10OQTjOW-z0AXKIeVvmP5giyp4CDYxHID29qkfQJnyNwR4M-I5gfkszuWp1qEafwNOZhJD-zK9cfzbkryhlYEpoQWAMG82rM");
+  background-image: url("https://i.pinimg.com/originals/08/ed/3a/08ed3a37713c50fe0eeeb4b78dd00096.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;

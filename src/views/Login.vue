@@ -15,7 +15,7 @@
         </b-input-group>
 
         <b-button variant="primary" class="mt-5">Login</b-button>
-      <p class=" mt-5">Don't have an account? Sign Up  <b-link to="/signup">here</b-link>  </p>
+      <p class=" mt-5">Don't have an account? Sign Up  <b-link :to="`/${$i18n.locale}/signup`">Here</b-link>  </p>
      
       </b-form>
       </b-card>
